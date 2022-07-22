@@ -1,0 +1,117 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+body{
+    margin :0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:  17px;
+    color:whitesmoke;
+    line-height: 1.6;
+
+}
+
+#showcase{
+    background-image:url('./img/agric.jpg');
+    /*filter: blur(2px);*/
+    background-size: cover;
+    background-position: center;
+   /* backdrop-filter: blur;*/
+    
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding:0 20px;
+       
+}
+
+#showcase h1{
+    
+    font-size: 50px;
+    line-height: 1.2;
+    color:#ffffff;
+    text-shadow: #1f201f;
+  
+   
+   
+}
+
+#showcase p{
+    font-size:20px;
+
+}
+
+#showcase .button{
+    font-size: 18px;
+    text-decoration: none;
+    color: #ffffff;
+    border: #399249 2px solid;
+    padding: 10px 20px;
+    border-radius: 10px;
+    
+}
+
+#showcase .button:hover{
+    background-color:azure;
+    color: rgb(13, 142, 22);
+
+}
+
+#section-a{
+    padding:20px;
+    background:#39923f;
+    color:azure;
+    text-align: center;
+
+}
+
+#section-b{
+    padding:20px;
+    background:#99e7bf;
+    text-align: center;
+    color: azure;
+    margin: 2px;
+    
+}
+
+#section-c{
+    display: flex;
+    
+}
+
+#section-c div{
+    padding: 20px;
+}
+
+#section-c .box-1, #section-c .box-3{
+    background: #399249;
+    color:azure;
+    margin-top: 2px;
+}
+
+#section-c .box-2{
+    background: #99e7bf;
+    color:#ffffff;
+    margin-top: 2px;
+}
+
+
+
+
+img{
+    width: 80px;
+    height: 80px;
+    /*position: sticky;*/
+    /*bottom: 52px;*/
+   /* padding-bottom: 0px;*/
+    /*float:left;*/
+    transform:translateX(190px);
+    transform:translateY(150Px);
+
+    
+}
+
